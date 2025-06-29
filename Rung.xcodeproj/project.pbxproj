@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A90BA12E11AB8500ED92CE /* Rung Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 40A90BA02E11AB8500ED92CE /* Rung Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A90BA22E11AB8500ED92CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A90B942E11AB8400ED92CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A90B9F2E11AB8500ED92CE;
+			remoteInfo = "Rung Watch App";
+		};
+		40A90BB02E11AB8800ED92CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A90B942E11AB8400ED92CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A90B9F2E11AB8500ED92CE;
+			remoteInfo = "Rung Watch App";
+		};
+		40A90BBA2E11AB8800ED92CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A90B942E11AB8400ED92CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A90B9F2E11AB8500ED92CE;
+			remoteInfo = "Rung Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40A90BC62E11AB8800ED92CE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				40A90BA12E11AB8500ED92CE /* Rung Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		40A90B9A2E11AB8500ED92CE /* Rung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rung.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A90BA02E11AB8500ED92CE /* Rung Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rung Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A90BAF2E11AB8800ED92CE /* Rung Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rung Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A90BB92E11AB8800ED92CE /* Rung Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rung Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		40A90BA42E11AB8500ED92CE /* Rung Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Rung Watch App";
+			sourceTree = "<group>";
+		};
+		40A90BB22E11AB8800ED92CE /* Rung Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Rung Watch AppTests";
+			sourceTree = "<group>";
+		};
+		40A90BBC2E11AB8800ED92CE /* Rung Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Rung Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A90B9D2E11AB8500ED92CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A90BAC2E11AB8800ED92CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A90BB62E11AB8800ED92CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A90B932E11AB8400ED92CE = {
+			isa = PBXGroup;
+			children = (
+				40A90BA42E11AB8500ED92CE /* Rung Watch App */,
+				40A90BB22E11AB8800ED92CE /* Rung Watch AppTests */,
+				40A90BBC2E11AB8800ED92CE /* Rung Watch AppUITests */,
+				40A90B9B2E11AB8500ED92CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40A90B9B2E11AB8500ED92CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A90B9A2E11AB8500ED92CE /* Rung.app */,
+				40A90BA02E11AB8500ED92CE /* Rung Watch App.app */,
+				40A90BAF2E11AB8800ED92CE /* Rung Watch AppTests.xctest */,
+				40A90BB92E11AB8800ED92CE /* Rung Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A90B992E11AB8500ED92CE /* Rung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A90BC72E11AB8800ED92CE /* Build configuration list for PBXNativeTarget "Rung" */;
+			buildPhases = (
+				40A90B982E11AB8500ED92CE /* Resources */,
+				40A90BC62E11AB8800ED92CE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A90BA32E11AB8500ED92CE /* PBXTargetDependency */,
+			);
+			name = Rung;
+			packageProductDependencies = (
+			);
+			productName = Rung;
+			productReference = 40A90B9A2E11AB8500ED92CE /* Rung.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		40A90B9F2E11AB8500ED92CE /* Rung Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A90BC32E11AB8800ED92CE /* Build configuration list for PBXNativeTarget "Rung Watch App" */;
+			buildPhases = (
+				40A90B9C2E11AB8500ED92CE /* Sources */,
+				40A90B9D2E11AB8500ED92CE /* Frameworks */,
+				40A90B9E2E11AB8500ED92CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				40A90BA42E11AB8500ED92CE /* Rung Watch App */,
+			);
+			name = "Rung Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Rung Watch App";
+			productReference = 40A90BA02E11AB8500ED92CE /* Rung Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A90BAE2E11AB8800ED92CE /* Rung Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A90BCA2E11AB8800ED92CE /* Build configuration list for PBXNativeTarget "Rung Watch AppTests" */;
+			buildPhases = (
+				40A90BAB2E11AB8800ED92CE /* Sources */,
+				40A90BAC2E11AB8800ED92CE /* Frameworks */,
+				40A90BAD2E11AB8800ED92CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A90BB12E11AB8800ED92CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				40A90BB22E11AB8800ED92CE /* Rung Watch AppTests */,
+			);
+			name = "Rung Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Rung Watch AppTests";
+			productReference = 40A90BAF2E11AB8800ED92CE /* Rung Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40A90BB82E11AB8800ED92CE /* Rung Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A90BCD2E11AB8800ED92CE /* Build configuration list for PBXNativeTarget "Rung Watch AppUITests" */;
+			buildPhases = (
+				40A90BB52E11AB8800ED92CE /* Sources */,
+				40A90BB62E11AB8800ED92CE /* Frameworks */,
+				40A90BB72E11AB8800ED92CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A90BBB2E11AB8800ED92CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				40A90BBC2E11AB8800ED92CE /* Rung Watch AppUITests */,
+			);
+			name = "Rung Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Rung Watch AppUITests";
+			productReference = 40A90BB92E11AB8800ED92CE /* Rung Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A90B942E11AB8400ED92CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					40A90B992E11AB8500ED92CE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					40A90B9F2E11AB8500ED92CE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					40A90BAE2E11AB8800ED92CE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 40A90B9F2E11AB8500ED92CE;
+					};
+					40A90BB82E11AB8800ED92CE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 40A90B9F2E11AB8500ED92CE;
+					};
+				};
+			};
+			buildConfigurationList = 40A90B972E11AB8400ED92CE /* Build configuration list for PBXProject "Rung" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40A90B932E11AB8400ED92CE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 40A90B9B2E11AB8500ED92CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A90B992E11AB8500ED92CE /* Rung */,
+				40A90B9F2E11AB8500ED92CE /* Rung Watch App */,
+				40A90BAE2E11AB8800ED92CE /* Rung Watch AppTests */,
+				40A90BB82E11AB8800ED92CE /* Rung Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A90B982E11AB8500ED92CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A90B9E2E11AB8500ED92CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A90BAD2E11AB8800ED92CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A90BB72E11AB8800ED92CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A90B9C2E11AB8500ED92CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A90BAB2E11AB8800ED92CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A90BB52E11AB8800ED92CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A90BA32E11AB8500ED92CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A90B9F2E11AB8500ED92CE /* Rung Watch App */;
+			targetProxy = 40A90BA22E11AB8500ED92CE /* PBXContainerItemProxy */;
+		};
+		40A90BB12E11AB8800ED92CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A90B9F2E11AB8500ED92CE /* Rung Watch App */;
+			targetProxy = 40A90BB02E11AB8800ED92CE /* PBXContainerItemProxy */;
+		};
+		40A90BBB2E11AB8800ED92CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A90B9F2E11AB8500ED92CE /* Rung Watch App */;
+			targetProxy = 40A90BBA2E11AB8800ED92CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40A90BC12E11AB8800ED92CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40A90BC22E11AB8800ED92CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		40A90BC42E11AB8800ED92CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Rung;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = product.Rung.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		40A90BC52E11AB8800ED92CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Rung;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = product.Rung.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		40A90BC82E11AB8800ED92CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Rung;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = product.Rung;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40A90BC92E11AB8800ED92CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Rung;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = product.Rung;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A90BCB2E11AB8800ED92CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "product.Rung-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rung Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rung Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		40A90BCC2E11AB8800ED92CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "product.Rung-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rung Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rung Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		40A90BCE2E11AB8800ED92CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "product.Rung-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Rung Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		40A90BCF2E11AB8800ED92CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "product.Rung-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Rung Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A90B972E11AB8400ED92CE /* Build configuration list for PBXProject "Rung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A90BC12E11AB8800ED92CE /* Debug */,
+				40A90BC22E11AB8800ED92CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A90BC32E11AB8800ED92CE /* Build configuration list for PBXNativeTarget "Rung Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A90BC42E11AB8800ED92CE /* Debug */,
+				40A90BC52E11AB8800ED92CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A90BC72E11AB8800ED92CE /* Build configuration list for PBXNativeTarget "Rung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A90BC82E11AB8800ED92CE /* Debug */,
+				40A90BC92E11AB8800ED92CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A90BCA2E11AB8800ED92CE /* Build configuration list for PBXNativeTarget "Rung Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A90BCB2E11AB8800ED92CE /* Debug */,
+				40A90BCC2E11AB8800ED92CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A90BCD2E11AB8800ED92CE /* Build configuration list for PBXNativeTarget "Rung Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A90BCE2E11AB8800ED92CE /* Debug */,
+				40A90BCF2E11AB8800ED92CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A90B942E11AB8400ED92CE /* Project object */;
+}
